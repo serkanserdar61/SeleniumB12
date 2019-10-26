@@ -4,7 +4,6 @@ import org.junit.Assert;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +21,9 @@ public class HomePage{
         // navigate to website with get methods
         driver.get("http://formy-project.herokuapp.com/");
 
+
+        WebDriver driver = new ChromeDriver(); //-- hazir bir suru method
+
         // key and mouse locator then click on it
         WebElement keyAndMouse = driver.findElement(By.xpath("/html/body/div/div/li[9]/a"));
         keyAndMouse.click();
@@ -34,6 +36,7 @@ public class HomePage{
 
         // verify getText and Keyboard and Mouse Input"
         Assert.assertEquals(text, "Keyboard and Mouse Input");
+        driver.quit();
 
     }
 
@@ -62,10 +65,6 @@ public class HomePage{
         Assert.assertEquals(result, "Description ¶");
         Assert.assertTrue(result.contains("Description"));
     }
-
-
-
-
 
 
 
