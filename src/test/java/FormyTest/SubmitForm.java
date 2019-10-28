@@ -78,6 +78,10 @@ public class SubmitForm {
     public void TestCase() throws InterruptedException {
        SubmitFormFormWebsite("Oguz","Kaan","Teacher");
     }
+    @Test
+    public void TestCase3() throws InterruptedException {
+        SubmitFormFormWebsite("Oguzd","Kaan","Teacher");
+    }
 
 
     @Test
