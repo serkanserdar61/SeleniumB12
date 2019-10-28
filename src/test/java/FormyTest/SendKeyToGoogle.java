@@ -82,15 +82,30 @@ public class SendKeyToGoogle {
     }
 
 
-//    DAta type
-//    String ,int ,
-//    Webelement
-//            Method
-//    void  --
-//    hehangi bir
-//    sey retunr
-//    etmiyour
-//
+//    DAta type  samples
+
+//        int myNum = 5;               // Integer (whole number)
+//        float myFloatNum = 5.99f;    // Floating point number
+//        char myLetter = 'D';         // Character
+//        boolean myBool = true;       // Boolean
+//        String myText = "Hello";     // String
+//        WebElement box = driver.findElement(By.id('name'));
+
+
+//    WebElement in Selenium: Operations performed on the WebElements
+//    In order to access WebElements, we need to perform a set of operations starting with browser actions
+//    until the operations are performed on  frames.
+    //    Operations performed on the browser
+        //    Launch the browser
+        //    Navigate to particular web page
+        //    Close the current browser
+        //    Close all browsers opened by WebDriver during execution
+        //    Maximize browser
+        //    Refresh the browser
+    //    Operations on the web page
+        //    Get page title
+        //    Get page URL
+
 //    public void GetName() {
 //    }
 
